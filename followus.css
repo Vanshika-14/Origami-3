@@ -1,0 +1,42 @@
+   body {
+      background-image: url("images/proBG.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   .header {
+      background-color: rgb(148, 216, 255);
+      text-align: center;
+      padding: 2px;
+   }
+
+   .content {
+      background-color: rgb(255, 155, 230);
+      text-align: center;
+   }
+
+   h3 {
+      font-size: 25px;
+      color: blue;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   p {
+      background-color: rgb(255, 137, 186);
+      border: 3px solid rgb(142, 227, 255);
+      border-radius: 20px;
+      font-size: 30px;
+      color: white;
+   }
+
+   img {
+      border: 10px solid black;
+      border-radius: 40px;
+   }
+
+   .grid {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-evenly;
+      border:2px solid #7772ff
+   }
